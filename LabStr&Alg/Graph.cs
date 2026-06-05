@@ -1,9 +1,10 @@
-﻿using System;
+﻿using Priority_Queue;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Priority_Queue;
+using System.Xml.Linq;
 
 namespace GraphProject
 {
@@ -181,5 +182,29 @@ namespace GraphProject
             return result;
         }
         #endregion
+   
+        public void Preorder(TreeNode node)
+        {
+            if (node == null) return;
+            Console.Write(node.Value + " ");
+            Preorder(node.Left);
+            Preorder(node.Right);
+        }
+
+        public void Inorder(TreeNode node)
+        {
+            if (node == null) return;
+            Inorder(node.Left);
+            Console.Write(node.Value + " ");
+            Inorder(node.Right);
+        }
+
+        public void Postorder(TreeNode node)
+        {
+            if (node == null) return;
+            Postorder(node.Left);
+            Postorder(node.Right);
+            Console.Write(node.Value + " ");
+        }
     }
 }
