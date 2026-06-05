@@ -1,3 +1,5 @@
 <Solution>
+  <Project Path="LabSort/LabSort.csproj" Id="a1ea0820-3b40-4722-b466-b4d4be9aee1f" />
   <Project Path="LabStr&amp;Alg/GraphProject.csproj" />
+  <Project Path="LabTree/LabTree.csproj" Id="2852ce26-3f02-40ef-ac57-d43d124b81b0" />
 </Solution>

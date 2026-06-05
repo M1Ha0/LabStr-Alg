@@ -20,7 +20,8 @@ namespace GraphProject
         {
             //Задание 1
             //return $"Узел с индексом {Index}:{Data}, соседей {Neightbors.Count} Pre:{PreTime} | Post:{PostTime} ";
-            return $"Узел с индексом {Index}:{Data}, соседей {Neightbors.Count} Pre:{PreTime} | Post:{PostTime} ";
+            //Задание 2
+            return $"Узел с индексом {Index}:{Data}, соседей {Neightbors.Count}";
         }
     }
 }
